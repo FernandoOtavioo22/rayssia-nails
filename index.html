@@ -1,0 +1,584 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+
+  <!-- SEO -->
+  <title>Rayssia Nails | Nail Designer — Alongamento, Gel e Nail Art</title>
+  <meta name="description" content="Rayssia Nails: alongamento de unhas, banho de gel, esmaltação em gel, manutenção e nail art com atendimento personalizado e atenção aos detalhes. Agende pelo WhatsApp." />
+  <meta name="theme-color" content="#7041A6" />
+  <meta name="robots" content="index, follow" />
+  <!-- Troque pela URL final do site quando publicar -->
+  <link rel="canonical" href="https://www.seudominio.com.br/" />
+
+  <!-- Open Graph / redes sociais -->
+  <meta property="og:type" content="website" />
+  <meta property="og:locale" content="pt_BR" />
+  <meta property="og:site_name" content="Rayssia Nails" />
+  <meta property="og:title" content="Rayssia Nails | Suas unhas merecem um cuidado especial" />
+  <meta property="og:description" content="Alongamento, banho de gel, esmaltação em gel, manutenção e nail art. Agende seu horário pelo WhatsApp." />
+  <meta property="og:url" content="https://www.seudominio.com.br/" />
+  <!-- og:image precisa de URL absoluta: troque seudominio.com.br pelo domínio real -->
+  <meta property="og:image" content="https://www.seudominio.com.br/assets/img/lilas-florzinhas.webp" />
+  <meta property="og:image:width" content="885" />
+  <meta property="og:image:height" content="871" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="icon" href="assets/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="assets/apple-touch-icon.png" />
+
+  <!-- Fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <!-- Imagem principal (LCP) -->
+  <link rel="preload" as="image" href="assets/img/alongamento-marmore-ouro.webp" />
+
+  <link rel="stylesheet" href="css/styles.css" />
+  <script>
+    document.documentElement.classList.add('js', 'fx-pending');
+    /* se os efeitos não carregarem em 2,5 s, o conteúdo aparece mesmo assim */
+    setTimeout(function () { document.documentElement.classList.remove('fx-pending'); }, 2500);
+  </script>
+  <!-- Three.js (efeitos 3D) -->
+  <script type="importmap">
+    { "imports": {
+        "three": "https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.module.js",
+        "three/addons/": "https://cdn.jsdelivr.net/npm/three@0.160.0/examples/jsm/"
+    } }
+  </script>
+</head>
+<body>
+  <!-- Ícones (traço fino, estilo Lucide) -->
+  <svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></symbol>
+    <symbol id="i-menu" viewBox="0 0 24 24"><path d="M4 8h16"/><path d="M4 16h16"/></symbol>
+    <symbol id="i-x" viewBox="0 0 24 24"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></symbol>
+    <symbol id="i-chevron" viewBox="0 0 24 24"><path d="m6 9 6 6 6-6"/></symbol>
+    <symbol id="i-left" viewBox="0 0 24 24"><path d="m15 18-6-6 6-6"/></symbol>
+    <symbol id="i-right" viewBox="0 0 24 24"><path d="m9 18 6-6-6-6"/></symbol>
+    <symbol id="i-sparkles" viewBox="0 0 24 24"><path d="M9.937 15.5A2 2 0 0 0 8.5 14.063l-6.135-1.582a.5.5 0 0 1 0-.962L8.5 9.936A2 2 0 0 0 9.937 8.5l1.582-6.135a.5.5 0 0 1 .963 0L14.063 8.5A2 2 0 0 0 15.5 9.937l6.135 1.581a.5.5 0 0 1 0 .964L15.5 14.063a2 2 0 0 0-1.437 1.437l-1.582 6.135a.5.5 0 0 1-.963 0z"/><path d="M20 3v4"/><path d="M22 5h-4"/></symbol>
+    <symbol id="i-heart" viewBox="0 0 24 24"><path d="M19 14c1.49-1.46 3-3.21 3-5.5A5.5 5.5 0 0 0 16.5 3c-1.76 0-3 .5-4.5 2-1.5-1.5-2.74-2-4.5-2A5.5 5.5 0 0 0 2 8.5c0 2.3 1.5 4.05 3 5.5l7 7Z"/></symbol>
+    <symbol id="i-gem" viewBox="0 0 24 24"><path d="M6 3h12l4 6-10 13L2 9Z"/><path d="M11 3 8 9l4 13 4-13-3-6"/><path d="M2 9h20"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M20 13c0 5-3.5 7.5-7.66 8.95a1 1 0 0 1-.67-.01C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.24-2.72a1.17 1.17 0 0 1 1.52 0C14.51 3.81 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></symbol>
+    <symbol id="i-palette" viewBox="0 0 24 24"><circle cx="13.5" cy="6.5" r=".6" fill="currentColor"/><circle cx="17.5" cy="10.5" r=".6" fill="currentColor"/><circle cx="8.5" cy="7.5" r=".6" fill="currentColor"/><circle cx="6.5" cy="12.5" r=".6" fill="currentColor"/><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10c.926 0 1.648-.746 1.648-1.688 0-.437-.18-.835-.437-1.125-.29-.289-.438-.652-.438-1.125a1.64 1.64 0 0 1 1.668-1.668h1.996c3.051 0 5.555-2.503 5.555-5.554C21.965 6.012 17.461 2 12 2z"/></symbol>
+    <symbol id="i-instagram" viewBox="0 0 24 24"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><path d="M17.5 6.5h.01"/></symbol>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></symbol>
+    <symbol id="i-quote" viewBox="0 0 24 24"><path d="M16 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/><path d="M5 3a2 2 0 0 0-2 2v6a2 2 0 0 0 2 2 1 1 0 0 1 1 1v1a2 2 0 0 1-2 2 1 1 0 0 0-1 1v2a1 1 0 0 0 1 1 6 6 0 0 0 6-6V5a2 2 0 0 0-2-2z"/></symbol>
+    <symbol id="i-zoom" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/><path d="M11 8v6"/><path d="M8 11h6"/></symbol>
+    <symbol id="i-calendar" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/></symbol>
+    <symbol id="i-whatsapp" viewBox="0 0 24 24"><path fill="currentColor" stroke="none" d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413Z"/></symbol>
+  </svg>
+
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+  <!-- ============ 01 · HEADER ============ -->
+  <header class="header" id="header">
+    <div class="topbar">
+      <div class="container topbar__inner">
+        <a class="topbar__item" href="#depoimentos"><span class="stars" aria-hidden="true">★★★★★</span> <span data-config="googleRating">5,0</span> no Google</a>
+        <span class="topbar__item">Atendimento com horário marcado</span>
+        <span class="topbar__links">
+          <a class="topbar__item" data-wa="default" href="#contato" target="_blank" rel="noopener"><svg class="icon icon--fill"><use href="#i-whatsapp"/></svg> <span data-config="whatsappDisplay">(84) 99445-5760</span></a>
+          <a class="topbar__item" data-config-href="instagramUrl" href="#" target="_blank" rel="noopener"><svg class="icon"><use href="#i-instagram"/></svg> <span data-config="instagramHandle">@raysillva_nails</span></a>
+        </span>
+      </div>
+    </div>
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Rayssia Nails — início">
+        <!-- LOGO: assets/img/logo-emblema.png (arquivo original: assets/img/logo-original.jpg) -->
+        <img class="logo__mark" src="assets/img/logo-emblema.png" alt="" width="40" height="40" />
+        <span class="logo__text"><span class="logo__name">Rayssia</span><span class="logo__tag">Nails</span></span>
+      </a>
+
+      <nav class="nav" aria-label="Menu principal">
+        <ul class="nav__list">
+          <li><a href="#inicio" class="nav__link">Início</a></li>
+          <li><a href="#sobre" class="nav__link">Sobre</a></li>
+          <li><a href="#servicos" class="nav__link">Serviços</a></li>
+          <li><a href="#galeria" class="nav__link">Galeria</a></li>
+          <li><a href="#depoimentos" class="nav__link">Depoimentos</a></li>
+          <li><a href="#contato" class="nav__link">Contato</a></li>
+        </ul>
+      </nav>
+
+      <a class="btn btn--primary btn--sm header__cta" data-wa="default" href="#contato" target="_blank" rel="noopener">
+        Agendar horário
+      </a>
+
+      <button class="menu-toggle" type="button" aria-label="Abrir menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="icon"><use href="#i-menu"/></svg>
+      </button>
+    </div>
+    <div class="scroll-progress" aria-hidden="true"></div>
+  </header>
+
+  <!-- Menu mobile -->
+  <div class="mobile-menu" id="mobile-menu" aria-hidden="true">
+    <nav aria-label="Menu mobile">
+      <ul class="mobile-menu__list">
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#depoimentos">Depoimentos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+    <div class="mobile-menu__foot">
+      <a class="btn btn--primary btn--block" data-wa="default" href="#contato" target="_blank" rel="noopener">
+        <svg class="icon icon--fill"><use href="#i-whatsapp"/></svg> Agendar horário
+      </a>
+      <p class="mobile-menu__note">Beleza, cuidado e delicadeza em cada detalhe.</p>
+    </div>
+  </div>
+
+  <main id="conteudo">
+
+    <!-- ============ 02 · HERO ============ -->
+    <section class="hero" id="inicio" aria-labelledby="hero-title">
+      <!-- IMAGEM HERO: assets/img/alongamento-marmore-ouro.webp (troque também o preload no <head>) -->
+      <div class="hero__media">
+        <img
+          src="assets/img/alongamento-marmore-ouro.webp"
+          alt="Alongamento em formato bailarina com efeito mármore e folha de ouro"
+          width="879" height="878" fetchpriority="high" decoding="async" />
+      </div>
+      <div class="hero__shade" aria-hidden="true"></div>
+      <!-- Brilhos animados (Three.js) — some sozinho se a biblioteca não carregar -->
+      <canvas class="hero__glitter" aria-hidden="true"></canvas>
+
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <p class="eyebrow eyebrow--light hero__eyebrow" data-hero-fade>Beleza em cada detalhe</p>
+          <h1 class="hero__title" id="hero-title">
+            <span class="hero__line"><span data-hero-line>Suas unhas merecem</span></span>
+            <span class="hero__line"><span data-hero-line>um <em>cuidado especial.</em></span></span>
+          </h1>
+          <p class="hero__text" data-hero-fade>
+            Realce sua beleza com unhas bem cuidadas, técnicas profissionais e acabamentos pensados para valorizar seu estilo. Um momento de autocuidado feito especialmente para você.
+          </p>
+          <div class="hero__actions" data-hero-fade>
+            <a class="btn btn--primary btn--lg" data-wa="default" data-magnetic href="#contato" target="_blank" rel="noopener">
+              <svg class="icon icon--fill"><use href="#i-whatsapp"/></svg>
+              Agendar meu horário
+            </a>
+            <a class="btn btn--glass btn--lg" href="#servicos">
+              Conhecer os serviços
+              <svg class="icon"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+          <a class="hero__trust" href="#depoimentos" data-hero-fade>
+            <span class="stars" aria-hidden="true">★★★★★</span>
+            <span><strong data-config="googleRating">5,0</strong> · <span data-config="googleText">21 avaliações no Google</span></span>
+          </a>
+        </div>
+      </div>
+      <span class="hero__scallop" aria-hidden="true"></span>
+    </section>
+
+    <!-- ============ 03 · SOBRE ============ -->
+    <section class="section about" id="sobre" aria-labelledby="sobre-title">
+      <div class="container about__grid">
+        <div class="about__visual reveal">
+          <div class="about__block" aria-hidden="true"></div>
+          <!-- IMAGEM SOBRE: assets/img/francesinha-classica.webp (pode trocar por uma foto da Rayssia ou do espaço) -->
+          <figure class="about__photo media">
+            <img
+              src="assets/img/francesinha-classica.webp"
+              alt="Francesinha clássica com glitter em unhas quadradas, com a cabine de LED ao fundo"
+              width="879" height="886" loading="lazy" decoding="async" />
+          </figure>
+          <p class="about__caption">
+            <svg class="icon"><use href="#i-heart"/></svg>
+            Um momento feito para você
+          </p>
+        </div>
+
+        <div class="about__content">
+          <p class="eyebrow reveal">Sobre a Rayssia Nails</p>
+          <h2 class="section-title reveal" id="sobre-title" style="--d:80ms">
+            Beleza nos detalhes, <em>cuidado em cada atendimento.</em>
+          </h2>
+          <div class="about__text reveal" style="--d:160ms">
+            <p class="lead">Mais do que cuidar das unhas, queremos proporcionar uma experiência agradável, onde você possa reservar um momento para si mesma.</p>
+            <p>Cada atendimento é realizado com atenção aos detalhes, dedicação e cuidado, respeitando suas preferências e o estilo que mais combina com você.</p>
+            <p>Nosso objetivo é valorizar sua beleza através de unhas bem trabalhadas, com técnicas adequadas e acabamento cuidadoso.</p>
+          </div>
+          <a class="btn btn--outline reveal" style="--d:240ms" href="#servicos">
+            Quero conhecer os serviços
+            <svg class="icon"><use href="#i-arrow"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 · SERVIÇOS ============ -->
+    <section class="section services" id="servicos" aria-labelledby="servicos-title">
+      <div class="container">
+        <header class="section-head section-head--split">
+          <div>
+            <p class="eyebrow reveal">Serviços</p>
+            <h2 class="section-title reveal" id="servicos-title" style="--d:80ms">
+              Encontre o cuidado ideal <em>para suas unhas.</em>
+            </h2>
+          </div>
+          <p class="section-sub reveal" style="--d:160ms">
+            Conheça nossos serviços e escolha a opção que mais combina com suas necessidades e preferências.
+          </p>
+        </header>
+
+        <div class="services__track" data-carousel>
+          <!-- Card 01 (destaque) -->
+          <article class="service service--feature reveal">
+            <figure class="service__media media">
+              <!-- IMAGEM: assets/img/alongamento-prata.webp -->
+              <img src="assets/img/alongamento-prata.webp"
+                   alt="Alongamento bailarina em tom lavanda com linhas prateadas" width="880" height="874" loading="lazy" decoding="async" />
+            </figure>
+            <div class="service__body">
+              <span class="service__num">01</span>
+              <h3 class="service__title">Alongamento de unhas</h3>
+              <p class="service__text">Unhas alongadas e personalizadas, com formatos e acabamentos que valorizam seu estilo.</p>
+              <a class="service__link" data-wa="servico:alongamento" href="#contato" target="_blank" rel="noopener">
+                Consultar pelo WhatsApp <svg class="icon"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="service reveal" style="--d:80ms">
+            <figure class="service__media media">
+              <!-- IMAGEM: assets/img/degrade-brilho.webp -->
+              <img src="assets/img/degrade-brilho.webp"
+                   alt="Unhas amendoadas com banho de gel em degradê rosa com brilho" width="877" height="879" loading="lazy" decoding="async" />
+            </figure>
+            <div class="service__body">
+              <span class="service__num">02</span>
+              <h3 class="service__title">Banho de gel</h3>
+              <p class="service__text">Uma opção para proporcionar estrutura e acabamento às unhas naturais.</p>
+              <a class="service__link" data-wa="servico:banho-de-gel" href="#contato" target="_blank" rel="noopener">
+                Consultar pelo WhatsApp <svg class="icon"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="service reveal" style="--d:160ms">
+            <figure class="service__media media">
+              <!-- IMAGEM: assets/img/esmaltacao-marsala.webp -->
+              <img src="assets/img/esmaltacao-marsala.webp"
+                   alt="Esmaltação em gel marsala com acabamento brilhante" width="888" height="880" loading="lazy" decoding="async" />
+            </figure>
+            <div class="service__body">
+              <span class="service__num">03</span>
+              <h3 class="service__title">Esmaltação em gel</h3>
+              <p class="service__text">Acabamento uniforme e brilho para unhas com aparência bem cuidada.</p>
+              <a class="service__link" data-wa="servico:esmaltacao-em-gel" href="#contato" target="_blank" rel="noopener">
+                Consultar pelo WhatsApp <svg class="icon"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="service reveal" style="--d:80ms">
+            <figure class="service__media media">
+              <!-- IMAGEM: assets/img/francesinha-diagonal.webp -->
+              <img src="assets/img/francesinha-diagonal.webp"
+                   alt="Unhas quadradas com francesinha branca diagonal e strass" width="885" height="882" loading="lazy" decoding="async" />
+            </figure>
+            <div class="service__body">
+              <span class="service__num">04</span>
+              <h3 class="service__title">Manutenção</h3>
+              <p class="service__text">Cuidados para acompanhar o crescimento das unhas e preservar a estrutura do procedimento.</p>
+              <a class="service__link" data-wa="servico:manutencao" href="#contato" target="_blank" rel="noopener">
+                Consultar pelo WhatsApp <svg class="icon"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </article>
+
+          <article class="service reveal" style="--d:160ms">
+            <figure class="service__media media">
+              <!-- IMAGEM: assets/img/flor-pintada-a-mao.jpg -->
+              <img src="assets/img/flor-pintada-a-mao.jpg"
+                   alt="Nail art com flor rosa pintada à mão sobre francesinha amarela" width="830" height="830" loading="lazy" decoding="async" />
+            </figure>
+            <div class="service__body">
+              <span class="service__num">05</span>
+              <h3 class="service__title">Nail Art</h3>
+              <p class="service__text">Decorações e detalhes personalizados para expressar sua personalidade.</p>
+              <a class="service__link" data-wa="servico:nail-art" href="#contato" target="_blank" rel="noopener">
+                Consultar pelo WhatsApp <svg class="icon"><use href="#i-arrow"/></svg>
+              </a>
+            </div>
+          </article>
+        </div>
+
+        <div class="carousel-dots" data-dots-for="services" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- ============ 05 · DIFERENCIAIS ============ -->
+    <section class="section features" id="diferenciais" aria-labelledby="dif-title">
+      <div class="container features__grid">
+        <div class="features__intro">
+          <p class="eyebrow reveal">Por que escolher</p>
+          <h2 class="section-title reveal" id="dif-title" style="--d:80ms">
+            Seu momento de cuidado merece <em>atenção aos detalhes.</em>
+          </h2>
+          <figure class="features__photo media reveal" style="--d:160ms">
+            <!-- IMAGEM: assets/img/francesinha-lilas-borboleta.webp -->
+            <img src="assets/img/francesinha-lilas-borboleta.webp"
+                 alt="Francesinha lilás em unhas quadradas com borboletas aplicadas" width="887" height="870" loading="lazy" decoding="async" />
+          </figure>
+        </div>
+
+        <ol class="features__list">
+          <li class="feature reveal">
+            <span class="feature__icon"><svg class="icon"><use href="#i-heart"/></svg></span>
+            <div>
+              <h3 class="feature__title">Atendimento personalizado</h3>
+              <p>Cada cliente é recebida com atenção às suas preferências e necessidades.</p>
+            </div>
+          </li>
+          <li class="feature reveal" style="--d:80ms">
+            <span class="feature__icon"><svg class="icon"><use href="#i-gem"/></svg></span>
+            <div>
+              <h3 class="feature__title">Atenção aos detalhes</h3>
+              <p>Dedicação em cada etapa para um resultado cuidadoso e harmonioso.</p>
+            </div>
+          </li>
+          <li class="feature reveal" style="--d:160ms">
+            <span class="feature__icon"><svg class="icon"><use href="#i-shield"/></svg></span>
+            <div>
+              <h3 class="feature__title">Higiene e organização</h3>
+              <p>Atenção à higienização dos materiais e à organização do ambiente.</p>
+            </div>
+          </li>
+          <li class="feature reveal" style="--d:240ms">
+            <span class="feature__icon"><svg class="icon"><use href="#i-palette"/></svg></span>
+            <div>
+              <h3 class="feature__title">Estilo e personalização</h3>
+              <p>Opções de formatos, cores e decorações para combinar com você.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 06 · GALERIA ============ -->
+    <section class="section gallery" id="galeria" aria-labelledby="galeria-title">
+      <div class="container">
+        <header class="section-head section-head--center">
+          <p class="eyebrow eyebrow--center reveal">Galeria</p>
+          <h2 class="section-title reveal" id="galeria-title" style="--d:80ms">
+            Inspiração para suas <em>próximas unhas.</em>
+          </h2>
+          <p class="section-sub reveal" style="--d:160ms">
+            Cada trabalho carrega um pouco de criatividade, delicadeza e personalidade. Confira alguns resultados e encontre inspirações para seu próximo atendimento.
+          </p>
+        </header>
+
+        <!-- As fotos da galeria são definidas em js/config.js → gallery -->
+        <ul class="gallery__grid" id="gallery-grid" aria-label="Galeria de trabalhos"></ul>
+
+        <div class="gallery__cta reveal">
+          <a class="btn btn--primary btn--lg" data-wa="gallery" href="#contato" target="_blank" rel="noopener">
+            <svg class="icon icon--fill"><use href="#i-whatsapp"/></svg>
+            Quero fazer minhas unhas assim!
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07 · DEPOIMENTOS ============ -->
+    <section class="section testimonials" id="depoimentos" aria-labelledby="dep-title">
+      <div class="container">
+        <header class="section-head section-head--split">
+          <div>
+            <p class="eyebrow reveal">Depoimentos</p>
+            <h2 class="section-title reveal" id="dep-title" style="--d:80ms">
+              O carinho de quem já conhece <em>nosso trabalho.</em>
+            </h2>
+          </div>
+          <p class="section-sub reveal" style="--d:160ms">
+            A satisfação de cada cliente é uma das maiores motivações para continuar entregando o melhor em cada atendimento.
+          </p>
+        </header>
+
+        <div class="rating-summary reveal">
+          <div class="rating-summary__score" data-config="googleRating">5,0</div>
+          <div>
+            <span class="stars rating-summary__stars" aria-label="Nota 5 de 5">★★★★★</span>
+            <p class="rating-summary__text"><span data-config="googleText">21 avaliações no Google</span></p>
+          </div>
+          <svg class="rating-summary__g" viewBox="0 0 24 24" aria-hidden="true"><path fill="#4285F4" d="M23.5 12.3c0-.8-.1-1.6-.2-2.3H12v4.5h6.5a5.6 5.6 0 0 1-2.4 3.6v3h3.9c2.3-2.1 3.5-5.2 3.5-8.8z"/><path fill="#34A853" d="M12 24c3.2 0 6-1.1 8-2.9l-3.9-3c-1.1.7-2.5 1.2-4.1 1.2-3.1 0-5.8-2.1-6.7-5H1.3v3.1A12 12 0 0 0 12 24z"/><path fill="#FBBC05" d="M5.3 14.3a7.2 7.2 0 0 1 0-4.6V6.6H1.3a12 12 0 0 0 0 10.8l4-3.1z"/><path fill="#EA4335" d="M12 4.8c1.8 0 3.3.6 4.6 1.8l3.4-3.4A12 12 0 0 0 1.3 6.6l4 3.1c.9-2.9 3.6-4.9 6.7-4.9z"/></svg>
+        </div>
+
+        <!-- Avaliações reais do Google, definidas em js/config.js → testimonials -->
+        <div class="testimonials__track" id="testimonials-track" data-carousel></div>
+        <div class="carousel-dots" data-dots-for="testimonials" aria-hidden="true"></div>
+      </div>
+    </section>
+
+    <!-- ============ 08 · CTA FINAL ============ -->
+    <section class="cta" id="agendar" aria-labelledby="cta-title">
+      <div class="cta__deco" aria-hidden="true">
+        <span class="cta__ring cta__ring--1"></span>
+        <span class="cta__ring cta__ring--2"></span>
+        <span class="cta__ring cta__ring--3"></span>
+        <span class="sparkle sparkle--b"><svg class="icon"><use href="#i-sparkles"/></svg></span>
+        <span class="sparkle sparkle--c"><svg class="icon"><use href="#i-sparkles"/></svg></span>
+        <canvas class="cta__nails"></canvas>
+      </div>
+      <div class="container cta__inner">
+        <p class="eyebrow eyebrow--light eyebrow--center reveal">Agende seu horário</p>
+        <h2 class="cta__title reveal" id="cta-title" style="--d:80ms">
+          Que tal reservar um momento <em>para você?</em>
+        </h2>
+        <p class="cta__text reveal" style="--d:160ms">
+          Escolha seu serviço e venha viver uma experiência de cuidado e beleza com a Rayssia Nails.
+        </p>
+        <div class="reveal" style="--d:240ms">
+          <a class="btn btn--white btn--lg" data-wa="default" href="#contato" target="_blank" rel="noopener">
+            <svg class="icon icon--fill"><use href="#i-whatsapp"/></svg>
+            Agendar meu horário
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 09 · FAQ ============ -->
+    <section class="section faq" id="faq" aria-labelledby="faq-title">
+      <div class="container faq__grid">
+        <div class="faq__intro">
+          <p class="eyebrow reveal">Dúvidas frequentes</p>
+          <h2 class="section-title reveal" id="faq-title" style="--d:80ms">
+            Ficou com alguma <em>dúvida?</em>
+          </h2>
+          <p class="section-sub reveal" style="--d:160ms">Confira algumas respostas antes de agendar seu atendimento.</p>
+          <div class="faq__help reveal" style="--d:240ms">
+            <p><strong>Não encontrou sua resposta?</strong> Fale diretamente pelo WhatsApp.</p>
+            <a class="text-link" data-wa="faq" href="#contato" target="_blank" rel="noopener">
+              Enviar minha dúvida <svg class="icon"><use href="#i-arrow"/></svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="accordion reveal" style="--d:120ms">
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-1" id="faq-1-btn">
+              Como faço para agendar um horário? <svg class="icon"><use href="#i-chevron"/></svg>
+            </button></h3>
+            <div class="accordion__panel" id="faq-1" role="region" aria-labelledby="faq-1-btn"><div><p>É simples! Clique em qualquer botão de WhatsApp disponível no site e entre em contato para consultar os horários disponíveis.</p></div></div>
+          </div>
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-2" id="faq-2-btn">
+              Quais serviços estão disponíveis? <svg class="icon"><use href="#i-chevron"/></svg>
+            </button></h3>
+            <div class="accordion__panel" id="faq-2" role="region" aria-labelledby="faq-2-btn"><div><p>Trabalhamos com serviços como alongamento, banho de gel, esmaltação em gel, manutenção e nail art. Consulte a disponibilidade pelo WhatsApp.</p></div></div>
+          </div>
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-3" id="faq-3-btn">
+              Quanto custa cada procedimento? <svg class="icon"><use href="#i-chevron"/></svg>
+            </button></h3>
+            <div class="accordion__panel" id="faq-3" role="region" aria-labelledby="faq-3-btn"><div><p>Os valores variam conforme o serviço escolhido e suas particularidades. Entre em contato para receber informações atualizadas.</p></div></div>
+          </div>
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-4" id="faq-4-btn">
+              Quanto tempo dura o atendimento? <svg class="icon"><use href="#i-chevron"/></svg>
+            </button></h3>
+            <div class="accordion__panel" id="faq-4" role="region" aria-labelledby="faq-4-btn"><div><p>O tempo depende do procedimento escolhido e das condições das unhas. Você pode consultar uma estimativa no momento do agendamento.</p></div></div>
+          </div>
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-5" id="faq-5-btn">
+              Preciso agendar com antecedência? <svg class="icon"><use href="#i-chevron"/></svg>
+            </button></h3>
+            <div class="accordion__panel" id="faq-5" role="region" aria-labelledby="faq-5-btn"><div><p>Recomendamos agendar antecipadamente para conseguir escolher o horário mais conveniente.</p></div></div>
+          </div>
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-6" id="faq-6-btn">
+              Posso escolher o formato e a decoração das unhas? <svg class="icon"><use href="#i-chevron"/></svg>
+            </button></h3>
+            <div class="accordion__panel" id="faq-6" role="region" aria-labelledby="faq-6-btn"><div><p>Sim! Você pode compartilhar suas referências e conversar sobre as possibilidades para seu atendimento.</p></div></div>
+          </div>
+          <div class="accordion__item">
+            <h3><button class="accordion__trigger" type="button" aria-expanded="false" aria-controls="faq-7" id="faq-7-btn">
+              Onde fica o espaço? <svg class="icon"><use href="#i-chevron"/></svg>
+            </button></h3>
+            <div class="accordion__panel" id="faq-7" role="region" aria-labelledby="faq-7-btn"><div><p>Entre em contato pelo WhatsApp para receber o endereço e as orientações de como chegar.</p></div></div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 10 · FOOTER ============ -->
+  <footer class="footer" id="contato">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#inicio" class="logo logo--light" aria-label="Rayssia Nails — voltar ao início">
+          <span class="logo__badge"><img class="logo__mark" src="assets/img/logo-emblema.png" alt="" width="40" height="40" loading="lazy" /></span>
+          <span class="logo__text"><span class="logo__name">Rayssia</span><span class="logo__tag">Nails</span></span>
+        </a>
+        <p class="footer__tagline">Beleza, cuidado e delicadeza em cada detalhe.</p>
+        <a class="btn btn--white btn--sm" data-wa="default" href="#contato" target="_blank" rel="noopener">
+          <svg class="icon icon--fill"><use href="#i-whatsapp"/></svg> Agendar horário
+        </a>
+      </div>
+
+      <div class="footer__col">
+        <h2 class="footer__heading">Contato</h2>
+        <ul class="footer__list">
+          <li><a data-wa="default" href="#contato" target="_blank" rel="noopener"><svg class="icon icon--fill"><use href="#i-whatsapp"/></svg> WhatsApp</a></li>
+          <li><a data-config-href="instagramUrl" href="https://www.instagram.com/" target="_blank" rel="noopener"><svg class="icon"><use href="#i-instagram"/></svg> <span data-config="instagramHandle">Instagram</span></a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h2 class="footer__heading">Endereço</h2>
+        <p class="footer__info"><svg class="icon"><use href="#i-pin"/></svg> <span data-config="address">Endereço informado pelo WhatsApp</span></p>
+      </div>
+
+      <div class="footer__col">
+        <h2 class="footer__heading">Horários</h2>
+        <div class="footer__info"><svg class="icon"><use href="#i-clock"/></svg>
+          <ul class="footer__hours" data-config-list="hours"><li>Atendimento com horário marcado</li></ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container footer__bottom">
+      <p>© <span data-year>2026</span> Rayssia Nails. Todos os direitos reservados.</p>
+      <a href="#inicio" class="footer__top">Voltar ao topo ↑</a>
+    </div>
+  </footer>
+
+  <!-- Botão flutuante de WhatsApp -->
+  <a class="wa-float" data-wa="default" href="#contato" target="_blank" rel="noopener" aria-label="Conversar pelo WhatsApp">
+    <svg class="icon icon--fill"><use href="#i-whatsapp"/></svg>
+    <span class="wa-float__label">Agende pelo WhatsApp</span>
+  </a>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Visualização da foto" hidden>
+    <button class="lightbox__btn lightbox__close" type="button" aria-label="Fechar"><svg class="icon"><use href="#i-x"/></svg></button>
+    <button class="lightbox__btn lightbox__prev" type="button" aria-label="Foto anterior"><svg class="icon"><use href="#i-left"/></svg></button>
+    <figure class="lightbox__figure">
+      <img class="lightbox__img" alt="" />
+      <figcaption class="lightbox__caption"></figcaption>
+    </figure>
+    <button class="lightbox__btn lightbox__next" type="button" aria-label="Próxima foto"><svg class="icon"><use href="#i-right"/></svg></button>
+  </div>
+
+  <script src="js/config.js"></script>
+  <script src="js/main.js" defer></script>
+
+  <!-- Efeitos (opcionais — o site funciona sem eles) -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/motion@11.18.2/dist/motion.js" defer></script>
+  <script src="js/effects.js" defer></script>
+  <script type="module" src="js/effects-3d.js"></script>
+</body>
+</html>
