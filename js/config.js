@@ -49,7 +49,8 @@ window.RAYSSIA_CONFIG = {
   googleRating: "5,0",
   googleCount: "21",
   googleText: "21 avaliações no Google",
-  address: "Endereço informado pelo WhatsApp",       // ex.: Rua das Flores, 123 — Centro, Cidade/UF
+  address: "R. Edgar Dantas, 1916 – Passagem de Areia, Parnamirim/RN – CEP 59145-590",
+  mapsUrl: "https://www.google.com/maps/search/?api=1&query=Studio+Rayssia+Nails%2C+R.+Edgar+Dantas%2C+1916+-+Passagem+de+Areia%2C+Parnamirim+-+RN%2C+59145-590",
   hours: [
     "Atendimento com horário marcado",               // ex.: Terça a sexta — 9h às 19h
     "Consulte a agenda pelo WhatsApp"                // ex.: Sábado — 9h às 15h

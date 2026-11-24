@@ -852,6 +852,10 @@ button { font: inherit; color: inherit; background: none; border: 0; cursor: poi
 .footer__list a:hover { color: var(--white); }
 .footer__info { display: flex; gap: 10px; align-items: flex-start; }
 .footer__info .icon { margin-top: 5px; color: var(--lavender); }
+.footer__map { display: inline-flex; align-items: center; gap: 6px; margin: 12px 0 0 28px; color: var(--lavender); font-size: .88rem; }
+.footer__map:hover { color: var(--white); }
+.footer__map .icon { width: 15px; height: 15px; }
+.accordion__panel a { color: var(--purple); text-decoration: underline; text-underline-offset: 3px; }
 .footer__hours { display: grid; gap: 4px; }
 .footer__bottom {
   margin-top: 56px; padding-top: 24px;
