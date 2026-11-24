@@ -40,8 +40,9 @@
 
     if (ST) {
       var heroScrub = { trigger: ".hero", start: "top top", end: "bottom top", scrub: true };
-      gsap.to(".hero__media", { yPercent: 12, ease: "none", scrollTrigger: heroScrub });
-      gsap.to(".hero__inner", { y: -80, autoAlpha: 0.1, ease: "none", scrollTrigger: Object.assign({}, heroScrub) });
+      // Parallax leve (sem desbotar o texto — ele fica sempre 100% visível)
+      gsap.fromTo(".hero__media", { yPercent: 0 }, { yPercent: 12, ease: "none", immediateRender: false, scrollTrigger: heroScrub });
+      gsap.fromTo(".hero__inner", { y: 0 }, { y: -40, ease: "none", immediateRender: false, scrollTrigger: Object.assign({}, heroScrub) });
 
       // Fotos de "Sobre" e "Diferenciais" deslizam dentro da moldura
       gsap.utils.toArray(".about__photo img, .features__photo img").forEach(function (img) {
